@@ -4,7 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>India COVID-19 Map</title>
+    <meta author = "karan arora">
+    <meta website = "massivefile.com" made-by = "Karan Arora">
+    <link rel="icon" href="https://avatars2.githubusercontent.com/u/51876732?s=460&u=3352979cf0092149399148e4a4006eab84fc9746&v=4" type="image/gif" sizes="16x16">
+
+
+    <title>COVID Map</title>
     <style>
       body {
         background: rgb(14, 12, 27);
@@ -19,48 +24,48 @@
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
       }
       .active {
-        color: blueviolet;
+        color: red;
       }
       .confirmed {
-        color: crimson;
+        color: orange;
       }
       .recod {
         color: greenyellow;
       }
       .died {
-        color: grey;
+        color: cyan;
       }
       .caseFigActive,
       .caseFigConfirmed,
       .caseFigRecod,
       .caseFigDied {
-        font-size: 20px;
+        font-size: 17px;
       }
       svg {
-        height: 650px;
+        height: 550px;
         width: 100%;
       }
       .india {
         text-align: center;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-size: 30px;
-        color: tomato;
-        margin-bottom: 50px;
+        font-size: 10px;
+        color: white;
+        margin-bottom: 0px;
       }
       .state-name {
         text-align: center;
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
           Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-        font-size: 25px;
-        color: tomato;
-        margin-bottom: 50px;
+        font-size: 17px;
+        color: white;
+        margin-bottom: 0px;
       }
     </style>
   </head>
   <body>
     <div class="container">
-      <div class="india">India COVID-19 Map</div>
+      <div class="india">COVID Statstics India (LIVE)</div>
       <div class="state-name">...</div>
       <div class="data">
         <div class="active">
@@ -263,7 +268,7 @@
               onmouseover="document.querySelector('#IN-LD').style.stroke='tomato';document.querySelector('#IN-LD').style.strokeWidth='4';showMapData('Lakshadweep')"
               title="Lakshadweep"
               class="land"
-              d="M102.338,759.383l-0.04,0.466l-0.372,0.397l-0.373,0.005l-0.268,-0.104l-0.011,-0.129l0.116,0.105l0.36,-0.029l0.308,-0.181L102.338,759.383zM114.532,721.533l-0.076,0.91l-0.128,0.088l-0.134,-0.317l0.116,0.018l0.087,-0.135L114.532,721.533zM86.825,720.854l0.081,0.245l-0.122,-0.041L86.825,720.854zM114.73,720.442l0.087,0.3l-0.064,0.251L114.73,720.442zM93.401,711.533l0.151,0.111l-0.006,0.218l-0.704,0.445L93.401,711.533zM115.096,706.364l-0.029,0.083l0.534,0.059l-0.622,0.218l-0.227,-0.082l-0.011,-0.194L115.096,706.364zM83.574,706.4l0.343,-0.624l0.11,-0.453l0.134,-0.147l0.122,0.006L83.574,706.4zM86.057,703.729l-0.064,0.047l0.058,0.159l-0.14,0.018l0.029,-0.2L86.057,703.729zM86.795,703.576l-0.273,0.211l0.029,-0.111L86.795,703.576zM95.273,699.696l0.029,0.177l-0.268,0.365l-0.104,-0.13l0.018,-0.177L95.273,699.696zM82.114,698.024l0.029,0.053l-0.087,-0.035L82.114,698.024zM96.5,697.076l-0.25,0.901l-0.354,0.789l0.349,-1.29L96.5,697.076zM100.89,692.025l0.192,0.224l0.052,0.336l-0.082,0.083l-0.122,-0.507l-0.105,-0.083L100.89,692.025zM83.859,689.832l0.058,0.112l-0.087,-0.029L83.859,689.832zM94.907,687.602l0.053,0.301l-0.245,0.242L94.907,687.602z"
+              d="M102.338,759.383l-0.04,0.466l-0.372,0.397l-0.373,0.005l-0.268,-0.104l-0.011,-0.129l0.116,0.105l0.36,-0.029l0.308,-0.181L102.338,759.383zM114.532,721.533l-0.076,0.91l-0.128,0.088l-0.134,-0.317l0.116,0.018l0.087,-0.135L114.532,721.533zM86.825,720.854l0.081,0.245l-0.122,-0.041L86.825,720.854zM114.73,720.442l0.087,0.3l-0.064,0.251L114.73,720.442zM93.401,711.533l0.151,0.111l-0.006,0.218l-0.704,0.445L93.401,711.533zM115.096,706.364l-0.029,0.083l0.534,0.059l-0.622,0.218l-0.227,-0.082l-0.011,-0.194L115.096,706.364zM83.574,706.4l0.343,-0.624l0.11,-0.453l0.134,-0.147l0.122,0.006L83.574,706.4zM86.057,703.729l-0.064,0.047l0.058,0.159l-0.14,0.018l0.029,-0.2L86.057,703.729zM86.795,703.576l-0.273,0.211l0.029,-0.111L86.795,703.576zM95.273,699.696l0.029,0.177l-9.268,9.365l-0.104,-9.13l0.018,-9.177L95.273,699.696zM82.114,698.024l0.029,0.053l-0.087,-0.035L82.114,698.024zM96.5,697.076l-0.25,0.901l-0.354,0.789l0.349,-1.29L96.5,697.076zM100.89,692.025l0.192,0.224l0.052,0.336l-0.082,0.083l-0.122,-0.507l-0.105,-0.083L100.89,692.025zM83.859,689.832l0.058,0.112l-0.087,-0.029L83.859,689.832zM94.907,687.602l0.053,0.301l-0.245,0.242L94.907,687.602z"
             />
             <path
               id="IN-MH"
@@ -406,7 +411,6 @@
       </div>
     </div>
     <script>
-      showMapData("Total");
       function showMapData(stateName) {
         console.log(stateName);
         fetch("https://api.covid19india.org/data.json")
